@@ -1,0 +1,9 @@
+# .gitignore
+
+# Build artifacts
+/build/
+/install/
+/log/
+
+# Ignore IDE-specific files
+.vscode/
