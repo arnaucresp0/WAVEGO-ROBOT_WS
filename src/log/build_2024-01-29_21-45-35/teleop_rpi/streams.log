@@ -1,0 +1,39 @@
+[7.389s] Invoking command in '/home/pi/robot_ws/src/teleop_rpi': PYTHONPATH=/home/pi/robot_ws/src/build/teleop_rpi/prefix_override:/home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_rpi build --build-base /home/pi/robot_ws/src/build/teleop_rpi/build install --record /home/pi/robot_ws/src/build/teleop_rpi/install.log --single-version-externally-managed
+[9.693s] running egg_info
+[9.699s] creating ../build/teleop_rpi/teleop_rpi.egg-info
+[9.714s] writing ../build/teleop_rpi/teleop_rpi.egg-info/PKG-INFO
+[9.716s] writing dependency_links to ../build/teleop_rpi/teleop_rpi.egg-info/dependency_links.txt
+[9.717s] writing entry points to ../build/teleop_rpi/teleop_rpi.egg-info/entry_points.txt
+[9.719s] writing requirements to ../build/teleop_rpi/teleop_rpi.egg-info/requires.txt
+[9.719s] writing top-level names to ../build/teleop_rpi/teleop_rpi.egg-info/top_level.txt
+[9.721s] writing manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'
+[9.737s] reading manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'
+[9.745s] writing manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'
+[9.746s] running build
+[9.747s] running build_py
+[9.749s] creating /home/pi/robot_ws/src/build/teleop_rpi/build
+[9.750s] creating /home/pi/robot_ws/src/build/teleop_rpi/build/lib
+[9.751s] creating /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi
+[9.752s] copying teleop_rpi/teleop_rpi_node.py -> /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi
+[9.753s] copying teleop_rpi/__init__.py -> /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi
+[9.755s] running install
+[9.757s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.758s]   warnings.warn(
+[9.759s] running install_lib
+[9.768s] creating /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi
+[9.769s] copying /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi/teleop_rpi_node.py -> /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi
+[9.771s] copying /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi/__init__.py -> /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi
+[9.776s] byte-compiling /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi/teleop_rpi_node.py to teleop_rpi_node.cpython-310.pyc
+[9.785s] byte-compiling /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi/__init__.py to __init__.cpython-310.pyc
+[9.787s] running install_data
+[9.792s] creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index
+[9.793s] creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index
+[9.794s] creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index/packages
+[9.795s] copying resource/teleop_rpi -> /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index/packages
+[9.796s] copying package.xml -> /home/pi/robot_ws/src/install/teleop_rpi/share/teleop_rpi
+[9.797s] running install_egg_info
+[9.813s] Copying ../build/teleop_rpi/teleop_rpi.egg-info to /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi-0.0.0-py3.10.egg-info
+[9.826s] running install_scripts
+[10.019s] Installing teleop_rpi_node script to /home/pi/robot_ws/src/install/teleop_rpi/lib/teleop_rpi
+[10.022s] writing list of installed files to '/home/pi/robot_ws/src/build/teleop_rpi/install.log'
+[10.218s] Invoked command in '/home/pi/robot_ws/src/teleop_rpi' returned '0': PYTHONPATH=/home/pi/robot_ws/src/build/teleop_rpi/prefix_override:/home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_rpi build --build-base /home/pi/robot_ws/src/build/teleop_rpi/build install --record /home/pi/robot_ws/src/build/teleop_rpi/install.log --single-version-externally-managed

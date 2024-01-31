@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001339] (teleop_rpi) JobQueued: {'identifier': 'teleop_rpi', 'dependencies': OrderedDict()}
+[0.002180] (teleop_rpi) JobStarted: {'identifier': 'teleop_rpi'}
+[0.094675] (-) TimerEvent: {}
+[0.200800] (-) TimerEvent: {}
+[0.303194] (-) TimerEvent: {}
+[0.405496] (-) TimerEvent: {}
+[0.508028] (-) TimerEvent: {}
+[0.609556] (-) TimerEvent: {}
+[0.711217] (-) TimerEvent: {}
+[0.812552] (-) TimerEvent: {}
+[0.913768] (-) TimerEvent: {}
+[1.014855] (-) TimerEvent: {}
+[1.116040] (-) TimerEvent: {}
+[1.217167] (-) TimerEvent: {}
+[1.318298] (-) TimerEvent: {}
+[1.419457] (-) TimerEvent: {}
+[1.520539] (-) TimerEvent: {}
+[1.621653] (-) TimerEvent: {}
+[1.722726] (-) TimerEvent: {}
+[1.823838] (-) TimerEvent: {}
+[1.924825] (-) TimerEvent: {}
+[2.025493] (-) TimerEvent: {}
+[2.126575] (-) TimerEvent: {}
+[2.227683] (-) TimerEvent: {}
+[2.328740] (-) TimerEvent: {}
+[2.429912] (-) TimerEvent: {}
+[2.531053] (-) TimerEvent: {}
+[2.632149] (-) TimerEvent: {}
+[2.733342] (-) TimerEvent: {}
+[2.834489] (-) TimerEvent: {}
+[2.936005] (-) TimerEvent: {}
+[3.037176] (-) TimerEvent: {}
+[3.138820] (-) TimerEvent: {}
+[3.245468] (-) TimerEvent: {}
+[3.347673] (-) TimerEvent: {}
+[3.450003] (-) TimerEvent: {}
+[3.551346] (-) TimerEvent: {}
+[3.653488] (-) TimerEvent: {}
+[3.755146] (-) TimerEvent: {}
+[3.859656] (-) TimerEvent: {}
+[3.960815] (-) TimerEvent: {}
+[4.061905] (-) TimerEvent: {}
+[4.163134] (-) TimerEvent: {}
+[4.264275] (-) TimerEvent: {}
+[4.365500] (-) TimerEvent: {}
+[4.466516] (-) TimerEvent: {}
+[4.567239] (-) TimerEvent: {}
+[4.668357] (-) TimerEvent: {}
+[4.770302] (-) TimerEvent: {}
+[4.871462] (-) TimerEvent: {}
+[4.972546] (-) TimerEvent: {}
+[5.073618] (-) TimerEvent: {}
+[5.174715] (-) TimerEvent: {}
+[5.275833] (-) TimerEvent: {}
+[5.376899] (-) TimerEvent: {}
+[5.478024] (-) TimerEvent: {}
+[5.579175] (-) TimerEvent: {}
+[5.680259] (-) TimerEvent: {}
+[5.781358] (-) TimerEvent: {}
+[5.882477] (-) TimerEvent: {}
+[5.983620] (-) TimerEvent: {}
+[6.084728] (-) TimerEvent: {}
+[6.185844] (-) TimerEvent: {}
+[6.287054] (-) TimerEvent: {}
+[6.388187] (-) TimerEvent: {}
+[6.489240] (-) TimerEvent: {}
+[6.589890] (-) TimerEvent: {}
+[6.690573] (-) TimerEvent: {}
+[6.791214] (-) TimerEvent: {}
+[6.891899] (-) TimerEvent: {}
+[6.992760] (-) TimerEvent: {}
+[7.094173] (-) TimerEvent: {}
+[7.195489] (-) TimerEvent: {}
+[7.297245] (-) TimerEvent: {}
+[7.384238] (teleop_rpi) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/teleop_rpi', 'build', '--build-base', '/home/pi/robot_ws/src/build/teleop_rpi/build', 'install', '--record', '/home/pi/robot_ws/src/build/teleop_rpi/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/robot_ws/src/teleop_rpi', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.24 36350 22', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/robot_ws/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/robot_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_ES.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/robot_ws/install/teleop_rpi:/home/pi/robot_ws/install/ldlidar:/home/pi/robot_ws/install/ldlidar_node:/home/pi/robot_ws/install/ldlidar_component:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'PWD': '/home/pi/robot_ws/src/build/teleop_rpi', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.24 36350 192.168.1.21 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/robot_ws/src/build/teleop_rpi/prefix_override:/home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages:/home/pi/robot_ws/build/teleop_rpi:/home/pi/robot_ws/install/teleop_rpi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/robot_ws/install/ldlidar:/home/pi/robot_ws/install/ldlidar_node:/home/pi/robot_ws/install/ldlidar_component'}, 'shell': False}
+[7.402660] (-) TimerEvent: {}
+[7.510236] (-) TimerEvent: {}
+[7.611495] (-) TimerEvent: {}
+[7.712633] (-) TimerEvent: {}
+[7.813734] (-) TimerEvent: {}
+[7.914960] (-) TimerEvent: {}
+[8.016100] (-) TimerEvent: {}
+[8.116843] (-) TimerEvent: {}
+[8.218007] (-) TimerEvent: {}
+[8.319171] (-) TimerEvent: {}
+[8.420240] (-) TimerEvent: {}
+[8.521348] (-) TimerEvent: {}
+[8.622518] (-) TimerEvent: {}
+[8.723665] (-) TimerEvent: {}
+[8.824710] (-) TimerEvent: {}
+[8.925745] (-) TimerEvent: {}
+[9.026792] (-) TimerEvent: {}
+[9.127974] (-) TimerEvent: {}
+[9.229058] (-) TimerEvent: {}
+[9.330183] (-) TimerEvent: {}
+[9.431335] (-) TimerEvent: {}
+[9.532486] (-) TimerEvent: {}
+[9.633592] (-) TimerEvent: {}
+[9.694136] (teleop_rpi) StdoutLine: {'line': b'running egg_info\n'}
+[9.700387] (teleop_rpi) StdoutLine: {'line': b'creating ../build/teleop_rpi/teleop_rpi.egg-info\n'}
+[9.715189] (teleop_rpi) StdoutLine: {'line': b'writing ../build/teleop_rpi/teleop_rpi.egg-info/PKG-INFO\n'}
+[9.717439] (teleop_rpi) StdoutLine: {'line': b'writing dependency_links to ../build/teleop_rpi/teleop_rpi.egg-info/dependency_links.txt\n'}
+[9.718711] (teleop_rpi) StdoutLine: {'line': b'writing entry points to ../build/teleop_rpi/teleop_rpi.egg-info/entry_points.txt\n'}
+[9.720049] (teleop_rpi) StdoutLine: {'line': b'writing requirements to ../build/teleop_rpi/teleop_rpi.egg-info/requires.txt\n'}
+[9.721164] (teleop_rpi) StdoutLine: {'line': b'writing top-level names to ../build/teleop_rpi/teleop_rpi.egg-info/top_level.txt\n'}
+[9.722907] (teleop_rpi) StdoutLine: {'line': b"writing manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'\n"}
+[9.733949] (-) TimerEvent: {}
+[9.738471] (teleop_rpi) StdoutLine: {'line': b"reading manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'\n"}
+[9.746061] (teleop_rpi) StdoutLine: {'line': b"writing manifest file '../build/teleop_rpi/teleop_rpi.egg-info/SOURCES.txt'\n"}
+[9.747763] (teleop_rpi) StdoutLine: {'line': b'running build\n'}
+[9.748741] (teleop_rpi) StdoutLine: {'line': b'running build_py\n'}
+[9.749930] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/build/teleop_rpi/build\n'}
+[9.751276] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/build/teleop_rpi/build/lib\n'}
+[9.752389] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi\n'}
+[9.753235] (teleop_rpi) StdoutLine: {'line': b'copying teleop_rpi/teleop_rpi_node.py -> /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi\n'}
+[9.754392] (teleop_rpi) StdoutLine: {'line': b'copying teleop_rpi/__init__.py -> /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi\n'}
+[9.756251] (teleop_rpi) StdoutLine: {'line': b'running install\n'}
+[9.758561] (teleop_rpi) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.759771] (teleop_rpi) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.761151] (teleop_rpi) StdoutLine: {'line': b'running install_lib\n'}
+[9.769262] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi\n'}
+[9.770460] (teleop_rpi) StdoutLine: {'line': b'copying /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi/teleop_rpi_node.py -> /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi\n'}
+[9.772154] (teleop_rpi) StdoutLine: {'line': b'copying /home/pi/robot_ws/src/build/teleop_rpi/build/lib/teleop_rpi/__init__.py -> /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi\n'}
+[9.777785] (teleop_rpi) StdoutLine: {'line': b'byte-compiling /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi/teleop_rpi_node.py to teleop_rpi_node.cpython-310.pyc\n'}
+[9.786313] (teleop_rpi) StdoutLine: {'line': b'byte-compiling /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi/__init__.py to __init__.cpython-310.pyc\n'}
+[9.788662] (teleop_rpi) StdoutLine: {'line': b'running install_data\n'}
+[9.793280] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index\n'}
+[9.794628] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index\n'}
+[9.795834] (teleop_rpi) StdoutLine: {'line': b'creating /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index/packages\n'}
+[9.796843] (teleop_rpi) StdoutLine: {'line': b'copying resource/teleop_rpi -> /home/pi/robot_ws/src/install/teleop_rpi/share/ament_index/resource_index/packages\n'}
+[9.797721] (teleop_rpi) StdoutLine: {'line': b'copying package.xml -> /home/pi/robot_ws/src/install/teleop_rpi/share/teleop_rpi\n'}
+[9.798798] (teleop_rpi) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.814100] (teleop_rpi) StdoutLine: {'line': b'Copying ../build/teleop_rpi/teleop_rpi.egg-info to /home/pi/robot_ws/src/install/teleop_rpi/lib/python3.10/site-packages/teleop_rpi-0.0.0-py3.10.egg-info\n'}
+[9.827443] (teleop_rpi) StdoutLine: {'line': b'running install_scripts\n'}
+[9.834272] (-) TimerEvent: {}
+[9.935553] (-) TimerEvent: {}
+[10.020547] (teleop_rpi) StdoutLine: {'line': b'Installing teleop_rpi_node script to /home/pi/robot_ws/src/install/teleop_rpi/lib/teleop_rpi\n'}
+[10.023772] (teleop_rpi) StdoutLine: {'line': b"writing list of installed files to '/home/pi/robot_ws/src/build/teleop_rpi/install.log'\n"}
+[10.035920] (-) TimerEvent: {}
+[10.137537] (-) TimerEvent: {}
+[10.217930] (teleop_rpi) CommandEnded: {'returncode': 0}
+[10.237991] (-) TimerEvent: {}
+[10.339847] (-) TimerEvent: {}
+[10.441345] (-) TimerEvent: {}
+[10.543282] (-) TimerEvent: {}
+[10.644557] (-) TimerEvent: {}
+[10.747637] (-) TimerEvent: {}
+[10.770807] (teleop_rpi) JobEnded: {'identifier': 'teleop_rpi', 'rc': 0}
+[10.776996] (-) EventReactorShutdown: {}

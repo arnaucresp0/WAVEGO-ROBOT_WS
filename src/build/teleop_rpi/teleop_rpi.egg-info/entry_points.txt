@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_rpi_node = teleop_rpi.teleop_rpi_node:main
+
