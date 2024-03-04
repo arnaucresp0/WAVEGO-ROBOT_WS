@@ -4,6 +4,10 @@
 /build/
 /install/
 /log/
+/src/build/
+/src/install/
+/src/log/
 
 # Ignore IDE-specific files
 .vscode/
+src/build/ldlidar_stl_ros2/CTestTestfile.cmake
