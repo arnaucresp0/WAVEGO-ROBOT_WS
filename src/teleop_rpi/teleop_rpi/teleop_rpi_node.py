@@ -62,7 +62,7 @@ class TeleopRpiNode(Node):
     def send_command(self, val):
         dataCMD = json.dumps({'var': "move", 'val': val})
         self.ser.write(dataCMD.encode())
-        self.logger.info(f"Sent command: {dataCMD}")
+        print(f"Sent command: {dataCMD}")
 
 def main(args=None):
     rclpy.init(args=args)
