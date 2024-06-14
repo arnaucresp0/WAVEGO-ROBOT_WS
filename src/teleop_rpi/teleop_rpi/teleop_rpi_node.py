@@ -20,17 +20,19 @@ STOP_LR = 6
 class TeleopRpiNode(Node):
     def __init__(self):
         super().__init__("teleop_rpi_node")
-        self.subscriber = self.create_subscription(String, "teleop_commands", self.callback, 10)
+        self.subscriber = self.create_subscription(String, "teleop_commands", self.callback, 100)
         self.logger = logging.getLogger("teleop_rpi_node")
         print("Robot is ready to receive commands.")
         self.quit = False
 
         # Open serial connection
-        with serial.Serial("/dev/ttyS0", 115200, timeout=1) as ser:
-            self.ser = ser
-            self.dataCMD = json.dumps({'var': "", 'val': 0, 'ip': ""})
+        try:
+            self.ser = serial.Serial("/dev/ttyS0", 115200, timeout=1)
+        except serial.SerialException as e:
+            self.logger.error(f"Failed to open serial port: {e}")
+            self.destroy_node()
 
-            rclpy.spin(self)
+        rclpy.spin(self)
 
     def callback(self, msg):
         # Received teleop command from PC, send it to Arduino via serial
